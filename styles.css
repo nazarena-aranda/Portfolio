@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(192, 192, 192);
+    margin: 0;
+}
+
+h3 {
+    text-align: justify;
+    font-weight: 100;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.inicio {
+    text-align: center;
+    background-image: url(./imagenes/extras/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.imagen_circular {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.contenido-inner {
+    max-width: 75%;
+}
+
+.carousel-wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-height: 230px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    scrollbar-width: none;
+}
+
+.carousel:hover .carousel-contenido {
+    transform: translateX(-200px);
+    
+}
+
+
+
+.carousel-contenido {
+    transition: 0.5s;
+    max-height: inherit;
+    margin: 0 10px;
+}
+
+.carousel-contenido img {
+    max-height: inherit;
+    max-width: inherit;
+}
+
+
+#contacto ul {
+    list-style: none;
+}
+
+#sobreMi, #estudios, #metas, #contacto {
+    margin: 40px;
+}
+
+
+
+#contacto .logo {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 10px; 
+    
+}
+
+#contacto li{
+    display: flex; 
+    align-items: center; 
+    text-align: center;
+
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
+
+.flecha {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    cursor: pointer; 
+}
+
+.flecha img {
+    width: 40px; 
+    height: auto; 
+}
