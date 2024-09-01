@@ -17,12 +17,12 @@ html {
     background-image: url(./imagenes/extras/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    padding-bottom: 10%;
 }
 
 .imagen_circular {
-    width: 300px;
-    height: 300px;
+    width: 20%;
+    height: 20%;
     border-radius: 100%;
 }
 
@@ -30,7 +30,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 button {
@@ -54,7 +54,7 @@ button {
 
 .carousel-wrapper {
     position: relative;
-    max-width: 800px;
+    max-width: 40%;
     margin: 0 auto;
 }
 
@@ -116,7 +116,7 @@ footer {
     background-color: black;
     color: aliceblue;
     text-align: center;
-    padding: 25px;
+    padding: 2%;
 }
 
 .flecha {
@@ -130,3 +130,4 @@ footer {
     width: 40px; 
     height: auto; 
 }
+
